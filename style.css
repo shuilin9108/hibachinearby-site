@@ -617,6 +617,28 @@ video {
   text-decoration: underline;
 }
 
+.footer-contact {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.footer-contact p {
+  margin: 6px 0;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-contact a {
+  color: rgba(255, 255, 255, 0.92);
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 /* ===== FLOATING CONTACT ===== */
 .floating-contact {
   position: fixed;

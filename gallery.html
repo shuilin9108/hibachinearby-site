@@ -1,502 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Hibachi Gallery | Private Hibachi Catering Photos & Videos | Hibachi by ShuiLink</title>
-  <meta name="description"
-    content="See real private hibachi catering photos and videos from backyard parties, birthdays, family gatherings, graduations, and special events with Hibachi by ShuiLink. Explore hibachi at home setups, chef entertainment, and real customer event inspiration." />
-  <link rel="canonical" href="https://shuilink.com/hibachi/gallery.html" />
-
-  <meta name="keywords" content="hibachi near me, hibachi at home, private hibachi catering, backyard hibachi party, private hibachi chef, hibachi birthday party, hibachi catering photos, hibachi catering videos, long island hibachi, nyc hibachi catering, private chef near me, backyard chef party">
-
-  <meta property="og:title" content="Hibachi Gallery | Private Hibachi Catering Photos & Videos | Hibachi by ShuiLink" />
-  <meta property="og:description"
-    content="See real private hibachi catering photos and videos from birthdays, backyard parties, family gatherings, and special events." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://shuilink.com/hibachi/gallery.html" />
-  <meta property="og:image" content="https://shuilink.com/assets/demo/c0.JPG" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Hibachi Gallery | Private Hibachi Catering Photos & Videos | Hibachi by ShuiLink" />
-  <meta name="twitter:description"
-    content="See real private hibachi catering photos and videos from birthdays, backyard parties, family gatherings, and special events." />
-  <meta name="twitter:image" content="https://shuilink.com/assets/demo/c0.JPG" />
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Restaurant",
-    "name": "Hibachi by ShuiLink",
-    "url": "https://shuilink.com/hibachi/",
-    "telephone": "+1-631-371-2706",
-    "servesCuisine": "Japanese, Hibachi",
-    "areaServed": "New York, Long Island, New Jersey",
-    "description": "Private hibachi catering for birthdays, backyard parties, family gatherings, graduations, and special events.",
-    "image": [
-      "https://shuilink.com/assets/demo/c0.JPG",
-      "https://shuilink.com/assets/demo/c1.JPG",
-      "https://shuilink.com/assets/demo/c2.JPG"
-    ]
-  }
-  </script>
-
-  <link rel="stylesheet" href="style.css" />
-
-  <style>
-    .gallery-page-wrap {
-      background: linear-gradient(to bottom, #fbfbfc 0%, #f4f4f6 100%);
-      min-height: 100vh;
-    }
-
-    .topbar {
-      background: #111;
-      color: #fff;
-      text-align: center;
-      font-size: 13px;
-      padding: 10px 16px;
-      letter-spacing: 0.2px;
-    }
-
-    .gallery-hero {
-      padding-top: 20px;
-    }
-
-    .gallery-hero-box {
-      max-width: 1100px;
-      margin: 0 auto;
-      background: linear-gradient(135deg, #ffffff 0%, #f8f8f9 100%);
-      border: 1px solid #ececec;
-      border-radius: 26px;
-      padding: 42px 28px;
-      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.05);
-    }
-
-    .gallery-hero-note {
-      max-width: 800px;
-      margin: 12px auto 0;
-      text-align: center;
-      color: #666;
-      line-height: 1.7;
-      font-size: 16px;
-    }
-
-    .gallery-badges {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 12px;
-      margin-top: 24px;
-    }
-
-    .gallery-badge {
-      padding: 10px 16px;
-      border-radius: 999px;
-      border: 1px solid #e7e7e7;
-      background: #fff;
-      color: #222;
-      font-size: 14px;
-      font-weight: 600;
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
-    }
-
-    .gallery-intro-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 18px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .gallery-intro-card {
-      background: #fff;
-      border: 1px solid #ececec;
-      border-radius: 18px;
-      padding: 22px;
-      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.04);
-    }
-
-    .gallery-intro-card h3 {
-      margin: 0 0 10px;
-      font-size: 18px;
-      color: #111;
-    }
-
-    .gallery-intro-card p {
-      margin: 0;
-      color: #555;
-      line-height: 1.7;
-    }
-
-    .gallery-video-panel {
-      max-width: 1050px;
-      margin: 0 auto;
-      background: #fff;
-      border: 1px solid #ececec;
-      border-radius: 24px;
-      padding: 20px;
-      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.05);
-    }
-
-    .gallery-video-wrap {
-      max-width: 900px;
-      margin: 0 auto;
-      border-radius: 22px;
-      overflow: hidden;
-      background: #000;
-      border: 1px solid #ececec;
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .gallery-video-wrap video {
-      display: block;
-      width: 100%;
-      max-width: 900px;
-      margin: 0 auto;
-      object-fit: cover;
-      background: #000;
-    }
-
-    .gallery-video-caption {
-      max-width: 760px;
-      margin: 18px auto 0;
-      text-align: center;
-      color: #666;
-      font-size: 15px;
-      line-height: 1.7;
-    }
-
-    .gallery-grid.gallery-photo-grid {
-      max-width: 1180px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 18px;
-    }
-
-    .gallery-grid.gallery-photo-grid img {
-      width: 100%;
-      height: 320px;
-      object-fit: cover;
-      border-radius: 20px;
-      display: block;
-      border: 1px solid #ececec;
-      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.045);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .gallery-grid.gallery-photo-grid img:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.07);
-    }
-
-    .gallery-copy-box {
-      max-width: 1100px;
-      margin: 0 auto;
-      background: #fff;
-      border: 1px solid #ececec;
-      border-radius: 22px;
-      padding: 30px 26px;
-      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.04);
-    }
-
-    .gallery-copy-box p {
-      margin: 0;
-      color: #555;
-      line-height: 1.9;
-      font-size: 16px;
-      text-align: center;
-    }
-
-    .gallery-final-cta {
-      max-width: 980px;
-      margin: 0 auto;
-      background: #fff;
-      border: 1px solid #ececec;
-      border-radius: 24px;
-      padding: 36px 24px;
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.045);
-      text-align: center;
-    }
-
-    .gallery-final-cta-actions {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 14px;
-      margin-top: 22px;
-    }
-
-    /* ===== CENTER FLOAT BOOK BUTTON ===== */
-    .center-book-now {
-      position: fixed;
-      left: 50%;
-      bottom: 28px;
-      transform: translateX(-50%);
-      z-index: 9999;
-      width: 24vw;
-      min-width: 190px;
-      max-width: 290px;
-    }
-
-    .center-book-now a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      padding: 16px 22px;
-      border-radius: 999px;
-      background: linear-gradient(135deg, #d62828, #ff3b3b);
-      color: #fff;
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 16px;
-      box-shadow: 0 16px 32px rgba(214, 40, 40, 0.35);
-      transition: all 0.25s ease;
-    }
-
-    .center-book-now a:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 20px 40px rgba(214, 40, 40, 0.45);
-    }
-
-    @media (max-width: 992px) {
-      .gallery-intro-grid,
-      .gallery-grid.gallery-photo-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .gallery-hero-box {
-        padding: 30px 18px;
-        border-radius: 20px;
-      }
-
-      .gallery-video-panel {
-        padding: 14px;
-        border-radius: 20px;
-      }
-
-      .gallery-grid.gallery-photo-grid img {
-        height: 240px;
-      }
-
-      .floating-contact {
-        display: none !important;
-      }
-
-      .center-book-now {
-        width: 60vw;
-        max-width: 300px;
-        bottom: 18px;
-      }
-
-      .center-book-now a {
-        width: 100%;
-        font-size: 16px;
-        padding: 16px;
-      }
-
-      body {
-        padding-bottom: 100px;
-      }
-    }
-  </style>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HibachiNearby Gallery | Private Hibachi Catering Photos & Videos Near You</title>
+<meta name="description" content="Explore real private hibachi catering photos and videos from birthdays, backyard parties, rooftop dinners, family gatherings, and special events across North Carolina, South Carolina, and Virginia with HibachiNearby.com."/>
+<link rel="canonical" href="https://hibachinearby.com/gallery.html"/>
+<meta name="keywords" content="hibachi near me, hibachi gallery, private hibachi catering photos, backyard hibachi party, rooftop hibachi dinner, birthday hibachi catering, hibachi chef near me, hibachi catering north carolina, hibachi catering south carolina, hibachi catering virginia"/>
+<meta property="og:title" content="HibachiNearby Gallery | Private Hibachi Catering Photos & Videos Near You"/>
+<meta property="og:description" content="See real private hibachi catering photos and videos from birthdays, backyard parties, rooftop dinners, family gatherings, and special events across NC, SC, and VA."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://hibachinearby.com/gallery.html"/>
+<meta property="og:image" content="https://hibachinearby.com/assets/logos/logo-main.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="HibachiNearby Gallery | Private Hibachi Catering Photos & Videos Near You"/>
+<meta name="twitter:description" content="See real private hibachi catering photos and videos from birthdays, backyard parties, rooftop dinners, family gatherings, and special events across NC, SC, and VA."/>
+<meta name="twitter:image" content="https://hibachinearby.com/assets/logos/logo-main.png"/>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"Restaurant",
+ "name":"HibachiNearby.com",
+ "url":"https://hibachinearby.com/",
+ "telephone":"+1-646-339-2225",
+ "servesCuisine":"Japanese, Hibachi",
+ "areaServed":"North Carolina, South Carolina, Virginia",
+ "description":"Private hibachi catering for birthdays, backyard parties, rooftop dinners, family gatherings, graduations, and special events.",
+ "image":[
+  "https://hibachinearby.com/assets/images/gallery/hibachi-party-backyard-fire-show-01.jpg",
+  "https://hibachinearby.com/assets/images/gallery/hibachi-party-backyard-dinner-heart-rice-01.jpg",
+  "https://hibachinearby.com/assets/images/gallery/hibachi-party-rooftop-costume-01.jpg"
+ ]
+}
+</script>
+<link rel="stylesheet" href="style.css"/>
+<style>
+.gallery-page-wrap{background:linear-gradient(to bottom,#050505 0%,#0d0d0f 45%,#121214 100%);min-height:100vh;color:#fff}
+.topbar{background:#111;color:#fff;text-align:center;font-size:13px;padding:10px 16px;letter-spacing:.2px;border-bottom:1px solid rgba(255,255,255,.08)}
+.navbar{background:#0a0a0b;border-bottom:1px solid rgba(255,255,255,.08)}
+.navbar .logo a{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-weight:800}
+.site-logo{height:46px;width:auto;display:block;object-fit:contain}
+.navbar .nav-btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;border-radius:999px;background:#ff5a1f;color:#fff;text-decoration:none;font-weight:800;font-size:15px;box-shadow:0 8px 20px rgba(255,90,31,.28)}
+.gallery-hero{padding-top:20px}
+.gallery-hero-box{max-width:1100px;margin:0 auto;background:linear-gradient(180deg,#141416 0%,#1b1b1e 100%);border:1px solid rgba(255,255,255,.08);border-radius:26px;padding:42px 28px;box-shadow:0 12px 36px rgba(0,0,0,.2)}
+.gallery-hero-note{max-width:800px;margin:12px auto 0;text-align:center;color:rgba(255,255,255,.68);line-height:1.7;font-size:16px}
+.gallery-badges{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:24px}
+.gallery-badge{padding:10px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:#111214;color:#fff;font-size:14px;font-weight:600;box-shadow:0 4px 14px rgba(0,0,0,.16)}
+.gallery-intro-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;max-width:1200px;margin:0 auto}
+.gallery-intro-card{background:linear-gradient(180deg,#141416 0%,#1b1b1e 100%);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:22px;box-shadow:0 8px 22px rgba(0,0,0,.16)}
+.gallery-intro-card h3{margin:0 0 10px;font-size:18px;color:#fff}
+.gallery-intro-card p{margin:0;color:rgba(255,255,255,.72);line-height:1.7}
+.gallery-video-panel{max-width:1050px;margin:0 auto;background:linear-gradient(180deg,#141416 0%,#1b1b1e 100%);border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:20px;box-shadow:0 12px 32px rgba(0,0,0,.22)}
+.gallery-video-wrap{max-width:900px;margin:0 auto;border-radius:22px;overflow:hidden;background:#000;border:1px solid rgba(255,255,255,.08);box-shadow:0 12px 30px rgba(0,0,0,.24);display:flex;justify-content:center;align-items:center}
+.gallery-video-wrap video{display:block;width:100%;max-width:900px;margin:0 auto;object-fit:cover;background:#000}
+.gallery-video-caption{max-width:760px;margin:18px auto 0;text-align:center;color:rgba(255,255,255,.68);font-size:15px;line-height:1.7}
+.story-section{max-width:1180px;margin:0 auto 28px}
+.story-box{background:linear-gradient(180deg,#141416 0%,#1b1b1e 100%);border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:24px;box-shadow:0 12px 28px rgba(0,0,0,.2)}
+.story-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:16px}
+.story-head h3{margin:0;color:#fff;font-size:24px}
+.story-tag{display:inline-flex;align-items:center;padding:8px 12px;border-radius:999px;background:rgba(255,90,31,.14);border:1px solid rgba(255,90,31,.24);color:#ffb08b;font-size:13px;font-weight:700}
+.story-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.story-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.story-grid img{width:100%;height:340px;object-fit:cover;border-radius:18px;display:block;border:1px solid rgba(255,255,255,.08);box-shadow:0 10px 24px rgba(0,0,0,.24)}
+.story-copy{margin-top:18px;color:rgba(255,255,255,.74);line-height:1.9;font-size:16px}
+.story-copy strong{color:#fff}
+.gallery-copy-box{max-width:1100px;margin:0 auto;background:linear-gradient(180deg,#141416 0%,#1b1b1e 100%);border:1px solid rgba(255,255,255,.08);border-radius:22px;padding:30px 26px;box-shadow:0 10px 28px rgba(0,0,0,.18)}
+.gallery-copy-box p{margin:0;color:rgba(255,255,255,.72);line-height:1.9;font-size:16px;text-align:center}
+.gallery-final-cta{max-width:980px;margin:0 auto;background:linear-gradient(180deg,#151518 0%,#1b1b1f 100%);border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:36px 24px;box-shadow:0 12px 30px rgba(0,0,0,.2);text-align:center}
+.gallery-final-cta-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:22px}
+.section-light{background:transparent!important}
+.section-header .eyebrow{color:#ff9b71}
+.section-header h1,.section-header h2,.page-title{color:#fff}
+.section-subtitle{color:rgba(255,255,255,.72)}
+.desktop-cta-stack{display:flex;flex-direction:column;gap:10px;position:fixed;left:50%;transform:translateX(-50%);bottom:22px;z-index:1200;width:280px;pointer-events:auto}
+.desktop-cta-stack a{display:flex;align-items:center;justify-content:center;width:100%;text-align:center;padding:15px 20px;border-radius:999px;color:#fff;text-decoration:none;font-weight:800;font-size:17px;box-shadow:0 14px 28px rgba(0,0,0,.28)}
+.desktop-text-now{background:#111;border:1px solid rgba(255,255,255,.14)}
+.desktop-book-now{background:#ff5a1f}
+.mobile-cta-stack{display:none}
+.footer{background:#0b0b0c;border-top:1px solid rgba(255,255,255,.08)}
+.footer-nav a,.footer-copy,.footer p{color:rgba(255,255,255,.74)}
+.footer-shuilink-link{color:#2563eb;font-weight:700;text-decoration:none}
+.footer-shuilink-link:hover{color:#60a5fa}
+.floating-contact{display:none}
+.menu-toggle{color:#fff}
+@media (max-width:992px){.gallery-intro-grid,.story-grid,.story-grid.two{grid-template-columns:1fr}}
+@media (max-width:768px){
+.site-logo{height:38px}
+.gallery-hero-box{padding:30px 18px;border-radius:20px}
+.gallery-video-panel{padding:14px;border-radius:20px}
+.story-box{padding:18px}
+.story-grid img,.story-grid.two img{height:240px}
+.navbar .nav-btn,.desktop-cta-stack{display:none!important}
+.mobile-cta-stack{display:flex;flex-direction:column;gap:10px;position:fixed;left:50%;transform:translateX(-50%);bottom:16px;z-index:999;width:calc(100% - 32px);max-width:340px}
+.mobile-cta-stack a{display:block;text-align:center;padding:14px 20px;border-radius:999px;color:#fff;text-decoration:none;font-weight:800;font-size:16px;box-shadow:0 12px 26px rgba(0,0,0,.26)}
+.mobile-text-now{background:#111;border:1px solid rgba(255,255,255,.14)}
+.mobile-book-now{background:#ff5a1f}
+body{padding-bottom:150px}
+}
+</style>
 </head>
-
 <body class="gallery-page-wrap">
 
-  <div class="topbar">
-    Private Hibachi Catering for Birthdays, Backyard Parties, Family Gatherings & Special Events
-  </div>
+<div class="topbar">Private Hibachi Catering Near You For Birthdays, Backyard Parties, Family Gatherings & Special Events</div>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="logo">
-      <a href="index.html">🔥 Hibachi by ShuiLink</a>
-    </div>
+<nav class="navbar">
+<div class="logo"><a href="index.html"><img src="assets/logos/logo-main.png" alt="HibachiNearby logo" class="site-logo"/></a></div>
+<button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+<div class="menu" id="mobileMenu">
+<a href="index.html">Home</a>
+<a href="book-online.html">Book Online</a>
+<a href="menu.html">Menu</a>
+<a href="cities.html">Cities</a>
+<a href="gallery.html">Gallery</a>
+<a href="faq.html">FAQ</a>
+<a href="contact.html">Contact</a>
+</div>
+<a href="book-online.html" class="nav-btn">Book Now</a>
+</nav>
 
-    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
-      ☰
-    </button>
+<section class="section gallery-hero">
+<div class="gallery-hero-box">
+<div class="section-header" style="margin-bottom:0;">
+<p class="eyebrow">Gallery</p>
+<h1 class="page-title">Real Private Hibachi Catering Photos & Videos Near You</h1>
+<p class="section-subtitle">Explore real hibachi party moments from backyards, rooftops, birthdays, vacations, and private group dinners across North Carolina, South Carolina, and Virginia.</p>
+<p class="gallery-hero-note">If you are searching for <strong>hibachi near me</strong>, <strong>private hibachi chef</strong>, <strong>backyard hibachi party</strong>, or <strong>hibachi catering for birthdays</strong>, this gallery shows the kind of experience HibachiNearby is built to deliver.</p>
+</div>
+<div class="gallery-badges">
+<div class="gallery-badge">🔥 Live Fire Show</div>
+<div class="gallery-badge">🎉 Real Private Events</div>
+<div class="gallery-badge">🏡 Backyard & Patio Setups</div>
+<div class="gallery-badge">👨‍🍳 Private Chef Entertainment</div>
+</div>
+</div>
+</section>
 
-    <div class="menu" id="mobileMenu">
-      <a href="index.html">Home</a>
-      <a href="book-online.html">Book Online</a>
-      <a href="menu.html">Menu</a>
-      <a href="cities.html">Cities</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
-      <a href="../index.html" class="back-shuilink-link">← Back to ShuiLink</a>
-    </div>
+<section class="section">
+<div class="gallery-intro-grid">
+<div class="gallery-intro-card">
+<h3>Backyard Hibachi Parties</h3>
+<p>See what private hibachi catering looks like for birthdays, family gatherings, and weekend celebrations at home.</p>
+</div>
+<div class="gallery-intro-card">
+<h3>Rooftop & Vacation Dinners</h3>
+<p>From rooftop group dinners to vacation-house setups, hibachi turns dinner into the main event.</p>
+</div>
+<div class="gallery-intro-card">
+<h3>Real Customer Atmosphere</h3>
+<p>Every photo here helps show the energy, fire show, chef interaction, and live cooking experience guests remember.</p>
+</div>
+</div>
+</section>
 
-    <a href="book-online.html" class="nav-btn">Book Now</a>
-  </nav>
+<section class="section">
+<div class="section-header">
+<p class="eyebrow">Featured Video</p>
+<h2>Watch A Real Hibachi Event In Action</h2>
+<p class="section-subtitle">A quick look at the live cooking, setup, crowd reaction, and private party atmosphere that makes hibachi catering stand out.</p>
+</div>
+<div class="gallery-video-panel">
+<div class="gallery-video-wrap">
+<video autoplay muted loop playsinline preload="auto" poster="assets/images/gallery/hibachi-party-rooftop-costume-01.jpg">
+<source src="assets/videos/hero-hibachi.mp4" type="video/mp4"/>
+</video>
+</div>
+<p class="gallery-video-caption">This featured hibachi party video highlights exactly why more customers search for private hibachi catering near them for birthdays, backyard celebrations, vacation dinners, and group events.</p>
+</div>
+</section>
 
-  <!-- HERO -->
-  <section class="section gallery-hero">
-    <div class="gallery-hero-box">
-      <div class="section-header" style="margin-bottom:0;">
-        <p class="eyebrow">Gallery</p>
-        <h1 class="page-title">Real Private Hibachi Catering Photos & Videos</h1>
-        <p class="section-subtitle">
-          Explore real at-home hibachi moments from birthdays, backyard parties, graduations, family gatherings, and private special events.
-        </p>
-        <p class="gallery-hero-note">
-          See how Hibachi by ShuiLink brings live cooking, fresh food, and memorable chef entertainment directly to customers’ homes and event spaces.
-        </p>
-      </div>
+<section class="section section-light">
+<div class="gallery-copy-box">
+<p>Looking for <strong>hibachi catering near me</strong> in North Carolina, South Carolina, or Virginia? This gallery showcases real private hibachi party setups, chef entertainment, rooftop dinners, backyard fire shows, and memorable group experiences. Whether you are planning a birthday, a family gathering, a vacation dinner, or a large private celebration, HibachiNearby helps turn a normal meal into a full event with live cooking and real energy.</p>
+</div>
+</section>
 
-      <div class="gallery-badges">
-        <div class="gallery-badge">🔥 Live Hibachi Cooking</div>
-        <div class="gallery-badge">🎉 Real Private Events</div>
-        <div class="gallery-badge">📍 Backyard Party Setups</div>
-        <div class="gallery-badge">👨‍🍳 At-Home Chef Experience</div>
-      </div>
-    </div>
-  </section>
+<section class="section section-light">
+<div class="section-header">
+<p class="eyebrow">Gallery Stories</p>
+<h2>Photo Stories From Real Hibachi Events</h2>
+<p class="section-subtitle">Each set below is grouped like a real event gallery so the page feels stronger for SEO and more useful for customers browsing inspiration.</p>
+</div>
+</section>
 
-  <!-- INTRO CARDS -->
-  <section class="section">
-    <div class="gallery-intro-grid">
-      <div class="gallery-intro-card">
-        <h3>Backyard Hibachi Parties</h3>
-        <p>See how private hibachi catering looks at real backyard birthdays, family gatherings, and special celebrations.</p>
-      </div>
-      <div class="gallery-intro-card">
-        <h3>Live Chef Entertainment</h3>
-        <p>Watch the fun of live hibachi-style cooking and chef interaction that makes the meal part of the event.</p>
-      </div>
-      <div class="gallery-intro-card">
-        <h3>Real Customer Experience</h3>
-        <p>Browse authentic photos and video clips that show the energy, setup, and atmosphere of private hibachi at home.</p>
-      </div>
-    </div>
-  </section>
+<section class="section">
+<div class="story-section">
+<div class="story-box">
+<div class="story-head">
+<h3>Backyard Fire Show Birthday Party</h3>
+<span class="story-tag">Birthday Hibachi Catering</span>
+</div>
+<div class="story-grid">
+<img src="assets/images/gallery/hibachi-party-backyard-fire-show-01.jpg" alt="Backyard hibachi birthday party with live fire show"/>
+<img src="assets/images/gallery/hibachi-party-backyard-dinner-heart-rice-01.jpg" alt="Private hibachi birthday dinner with heart shaped fried rice"/>
+<img src="assets/images/gallery/hibachi-party-couple-heart-rice-01.jpg" alt="Couple enjoying private hibachi catering at home"/>
+</div>
+<p class="story-copy">This private hibachi birthday party setup is exactly what many customers picture when searching for a <strong>backyard hibachi party near me</strong>. The chef brought the fire show, the fried rice heart moment made the celebration feel personal, and the whole dinner turned into entertainment for the group. For birthday dinners in Charlotte, Raleigh, Durham, and nearby cities, this kind of at-home hibachi setup helps create a restaurant-level experience without leaving home.</p>
+</div>
+</div>
+</section>
 
-  <!-- VIDEO -->
-  <section class="section">
-    <div class="section-header">
-      <p class="eyebrow">Featured Video</p>
-      <h2>Watch a Real Hibachi Party in Action</h2>
-      <p class="section-subtitle">
-        A quick look at the live cooking, setup, and customer experience during a private hibachi event.
-      </p>
-    </div>
+<section class="section">
+<div class="story-section">
+<div class="story-box">
+<div class="story-head">
+<h3>Rooftop Hibachi Dinner With Friends</h3>
+<span class="story-tag">Rooftop Private Chef Experience</span>
+</div>
+<div class="story-grid two">
+<img src="assets/images/gallery/hibachi-party-rooftop-costume-01.jpg" alt="Rooftop hibachi dinner with guests and chef"/>
+<img src="assets/images/gallery/hibachi-party-upscale-night-fire-show-01.jpg" alt="Upscale private hibachi dinner with nighttime fire show"/>
+</div>
+<p class="story-copy">For customers looking for a <strong>private hibachi chef for rooftop dinner</strong> or a more upscale group dinner experience, these rooftop-style photos show how flexible hibachi catering can be. The chef performance, the night fire show, and the private setting make this a strong option for birthdays, engagement weekends, vacations, and luxury home events in places like Virginia Beach, Wilmington, and Myrtle Beach.</p>
+</div>
+</div>
+</section>
 
-    <div class="gallery-video-panel">
-      <div class="gallery-video-wrap">
-        <video autoplay muted loop playsinline poster="../assets/demo/c1.JPG">
-          <source src="../assets/demo/HibachiCostomer.MP4" type="video/mp4" />
-        </video>
-      </div>
+<section class="section">
+<div class="story-section">
+<div class="story-box">
+<div class="story-head">
+<h3>Large Backyard Group Celebration</h3>
+<span class="story-tag">Family Gathering & Group Event</span>
+</div>
+<div class="story-grid two">
+<img src="assets/images/gallery/hibachi-party-large-backyard-group-01.jpg" alt="Large backyard hibachi catering event for big group"/>
+<img src="assets/images/gallery/hibachi-party-backyard-fire-show-01.jpg" alt="Backyard hibachi chef entertaining large group of guests"/>
+</div>
+<p class="story-copy">This larger private hibachi event shows why hibachi catering works so well for family gatherings, graduation parties, reunion dinners, and neighborhood celebrations. When people search for <strong>hibachi catering for large groups</strong> or <strong>private hibachi party for family event</strong>, they usually want something interactive, easy to host, and memorable for guests of all ages. This type of setup is ideal for bigger homes, patios, and open backyard spaces across North Carolina, South Carolina, and Virginia.</p>
+</div>
+</div>
+</section>
 
-      <p class="gallery-video-caption">
-        This video highlights the live energy of at-home hibachi catering, from chef performance to the social atmosphere guests enjoy during private events.
-      </p>
-    </div>
-  </section>
+<section class="section">
+<div class="story-section">
+<div class="story-box">
+<div class="story-head">
+<h3>Vacation House Hibachi Night</h3>
+<span class="story-tag">Vacation Hibachi Catering</span>
+</div>
+<div class="story-grid">
+<img src="assets/images/gallery/hibachi-party-rooftop-costume-01.jpg" alt="Vacation hibachi dinner with group of guests"/>
+<img src="assets/images/gallery/hibachi-party-couple-heart-rice-01.jpg" alt="Vacation house private hibachi experience for couple"/>
+<img src="assets/images/gallery/hibachi-party-upscale-night-fire-show-01.jpg" alt="Nighttime vacation hibachi fire show"/>
+</div>
+<p class="story-copy">One of the biggest reasons people search for <strong>hibachi catering at Airbnb</strong>, <strong>vacation hibachi chef near me</strong>, or <strong>private chef for beach house dinner</strong> is because they want a full experience without splitting up the group. This story-style set captures that vibe perfectly: easy group fun, live cooking, great photo moments, and a dinner that feels way more memorable than ordering takeout or going out to a crowded restaurant.</p>
+</div>
+</div>
+</section>
 
-  <!-- COPY BLOCK -->
-  <section class="section section-light">
-    <div class="gallery-copy-box">
-      <p>
-        Looking for <strong>hibachi at home near you</strong>? This gallery showcases real private hibachi catering experiences across New York, Long Island, Brooklyn, Queens, Manhattan, and nearby areas. From birthday parties and backyard celebrations to graduations and family gatherings, our private hibachi chefs bring a full restaurant-style experience directly to your home. Each event includes live cooking, fresh ingredients, and interactive chef entertainment that turns dinner into a memorable experience. If you're searching for <strong>hibachi catering near me</strong>, <strong>private hibachi chef</strong>, or <strong>backyard hibachi party</strong>, this page shows exactly what you can expect when booking with Hibachi by ShuiLink. Real chefs, real events, and real customer experiences — all designed to make your party feel special.
-      </p>
-    </div>
-  </section>
+<section class="section">
+<div class="story-section">
+<div class="story-box">
+<div class="story-head">
+<h3>Why These Hibachi Photos Matter</h3>
+<span class="story-tag">SEO + Customer Trust</span>
+</div>
+<p class="story-copy">These real hibachi party photos help customers quickly understand what to expect from a <strong>private hibachi chef near me</strong>. Instead of guessing what the setup looks like, they can see real fire show moments, backyard table layouts, chef interaction, and the social energy that makes hibachi different from a normal catered meal. That makes this page stronger for both SEO and conversions, especially for searches around <strong>birthday hibachi catering</strong>, <strong>backyard hibachi party</strong>, <strong>rooftop hibachi dinner</strong>, and <strong>private chef entertainment</strong>.</p>
+</div>
+</div>
+</section>
 
-  <!-- IMAGES -->
-  <section class="section section-light">
-    <div class="section-header">
-      <p class="eyebrow">Photo Gallery</p>
-      <h2>See Real Hibachi Moments at Home</h2>
-      <p class="section-subtitle">
-        Real chefs, real setups, real parties, and real customer memories.
-      </p>
-    </div>
+<section class="section">
+<div class="gallery-final-cta">
+<p class="eyebrow">Want More?</p>
+<h2>Ready To Create Your Own Hibachi Event Story?</h2>
+<p class="section-subtitle">Book your private hibachi experience online or text now to check availability for your date, city, and group size.</p>
+<div class="gallery-final-cta-actions">
+<a href="book-online.html" class="btn btn-primary">Book Online</a>
+<a href="contact.html" class="btn btn-secondary">Ask A Question</a>
+</div>
+</div>
+</section>
 
-    <div class="gallery-grid gallery-photo-grid">
-      <img src="../assets/demo/c0.JPG" alt="Private hibachi catering setup at backyard party" />
-      <img src="../assets/demo/c1.JPG" alt="Hibachi chef cooking live for home party guests" />
-      <img src="../assets/demo/c2.JPG" alt="At-home hibachi catering experience for special event" />
-      <img src="../assets/demo/c0.JPG" alt="Backyard hibachi chef entertaining guests during private party" />
-      <img src="../assets/demo/c1.JPG" alt="Private hibachi catering near me real event photo" />
-      <img src="../assets/demo/c2.JPG" alt="Live hibachi dinner setup for birthday party at home" />
-    </div>
-  </section>
-
-  <!-- INSTAGRAM CTA -->
-  <section class="section">
-    <div class="gallery-final-cta">
-      <p class="eyebrow">Want More?</p>
-      <h2>See More Private Hibachi Events</h2>
-      <p class="section-subtitle">
-        Follow along for more chef moments, real parties, and fresh hibachi event content.
-      </p>
-
-      <div class="gallery-final-cta-actions">
-        <a href="#" class="btn btn-primary">Follow on Instagram</a>
-        <a href="book-online.html" class="btn btn-secondary">Book Online</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
+<footer class="footer">
     <div class="footer-nav">
-      <a href="index.html">Home</a>
-      <a href="book-online.html">Book Online</a>
-      <a href="menu.html">Menu</a>
-      <a href="cities.html">Cities</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
-      <a href="sitemap.html">Sitemap</a>
+        <a href="index.html">Home</a>
+        <a href="book-online.html">Book Online</a>
+        <a href="menu.html">Menu</a>
+        <a href="cities.html">Cities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="sitemap.html">Sitemap</a>
     </div>
+
+    <div class="footer-contact">
+        <p><strong>Phone:</strong> <a href="tel:+16463392225">(646) 339-2225</a></p>
+        <p><strong>Email:</strong> <a href="mailto:hibachinearby@gmail.com">hibachinearby@gmail.com</a></p>
+        <p><strong>Address:</strong> 5506 Supreme Drive, Raleigh, NC 27606</p>
+    </div>
+
+    <p class="footer-copy">© 2026 HibachiNearby.com. All rights reserved.</p>
 
     <p class="footer-copy">
-      © 2026 🔥 Hibachi by ShuiLink | Website powered by
-      <a href="../index.html" class="footer-shuilink-link">ShuiLink</a>
-      — Websites & booking systems for small businesses
+        Website powered by
+        <a href="https://shuilink.com" target="_blank" rel="noopener noreferrer" class="footer-shuilink-link">⚡
+            ShuiLink</a>
+        — Booking systems, automation & growth tools
     </p>
-  </footer>
+</footer>
 
-  <div class="floating-contact">
-    <a href="sms:+16313712706?&body=Hi, I want to check availability for a hibachi party." class="float-text"
-      aria-label="Text Hibachi by ShuiLink">
-      💬 Text Us
-    </a>
+<div class="desktop-cta-stack">
+<a href="sms:+16463392225?&body=Hi, I want to check availability for a hibachi party." class="desktop-text-now">Text Now To Check Availability</a>
+<a href="book-online.html" class="desktop-book-now">Book Now</a>
+</div>
 
-    <a href="tel:16313712706" class="float-call" aria-label="Call Hibachi by ShuiLink">
-      📞 Call Now
-    </a>
-  </div>
+<div class="mobile-cta-stack">
+<a href="sms:+16463392225?&body=Hi, I want to check availability for a hibachi party." class="mobile-text-now">Text Me To Book</a>
+<a href="book-online.html" class="mobile-book-now">Book Now</a>
+</div>
 
-  <div class="center-book-now">
-    <a href="book-online.html">🔥 Book Now</a>
-  </div>
-
-  <script>
-    const menuToggle = document.getElementById("menuToggle");
-    const mobileMenu = document.getElementById("mobileMenu");
-
-    if (menuToggle && mobileMenu) {
-      menuToggle.addEventListener("click", () => {
-        mobileMenu.classList.toggle("menu-open");
-        const expanded = mobileMenu.classList.contains("menu-open");
-        menuToggle.setAttribute("aria-expanded", expanded ? "true" : "false");
-      });
-    }
-  </script>
+<script>
+const menuToggle=document.getElementById("menuToggle");
+const mobileMenu=document.getElementById("mobileMenu");
+if(menuToggle&&mobileMenu){menuToggle.addEventListener("click",()=>{mobileMenu.classList.toggle("menu-open");const expanded=mobileMenu.classList.contains("menu-open");menuToggle.setAttribute("aria-expanded",expanded?"true":"false");});}
+</script>
 
 </body>
-
 </html>
