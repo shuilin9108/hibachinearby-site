@@ -522,6 +522,113 @@
         padding-bottom: 150px
       }
     }
+
+    .section,
+    .section-light {
+      background: transparent !important;
+    }
+
+    .section-header h1,
+    .section-header h2,
+    .page-title {
+      color: #fff !important;
+    }
+
+    .section-subtitle,
+    .section-header p,
+    .section-header .section-subtitle {
+      color: rgba(255, 255, 255, .72) !important;
+    }
+
+    .btn-primary {
+      background: #ff5a1f !important;
+      color: #fff !important;
+      border: 1px solid rgba(255, 255, 255, .08) !important;
+    }
+
+    .btn-primary:hover {
+      background: #ff6a36 !important;
+      color: #fff !important;
+    }
+
+    .btn-secondary {
+      background: #17181b !important;
+      color: #fff !important;
+      border: 1px solid rgba(255, 255, 255, .12) !important;
+    }
+
+    .btn-secondary:hover {
+      background: #202126 !important;
+      color: #fff !important;
+    }
+
+    .footer-contact p,
+    .footer-contact a {
+      color: rgba(255, 255, 255, .78) !important;
+    }
+
+    .footer-contact a:hover {
+      color: #fff !important;
+    }
+
+    @media (max-width:768px) {
+      .navbar {
+        position: sticky;
+        top: 0;
+        padding: 14px 16px;
+        background: #0a0a0b !important;
+        border-bottom: 1px solid rgba(255, 255, 255, .08) !important;
+      }
+
+      .logo a {
+        color: #fff !important;
+      }
+
+      .menu-toggle {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        color: #fff !important;
+        background: transparent;
+        border: none;
+        font-size: 32px;
+        padding: 4px 8px;
+      }
+
+      .menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #0a0a0b !important;
+        border-top: 1px solid rgba(255, 255, 255, .08) !important;
+        border-bottom: 1px solid rgba(255, 255, 255, .08) !important;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, .28);
+        padding: 16px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+        z-index: 1100;
+      }
+
+      .menu.menu-open {
+        display: flex !important;
+      }
+
+      .menu a {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 8px 0;
+        color: #fff !important;
+      }
+
+      .menu a:hover {
+        color: #ff9b71 !important;
+      }
+    }
   </style>
 </head>
 
